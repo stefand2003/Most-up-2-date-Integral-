@@ -1,0 +1,175 @@
+.hero {
+  display: flex;
+
+  @media only screen and (max-width: 399px) {
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      font-size: 50px;
+      color: white;
+    }
+
+    h2 {
+      color: white;
+      text-align: center;
+      width: 370px;
+    }
+
+    h3 {
+      font-size: 25px;
+      color: white;
+      margin: 40px;
+      margin-top: 20px;
+    }
+
+    &--img {
+      background-image: url(..//../images/img_grey_phone.png);
+      background-repeat: no-repeat;
+      height: 760px;
+      width: 100%;
+    }
+
+    &__explore {
+      // border: 2px red dotted;
+      margin-top: 40px;
+      margin-bottom: 10px;
+      height: 45px;
+      width: 200px;
+      color: white;
+      background-color: transparent;
+      border-radius: 10px;
+      font-size: 20px;
+    }
+
+    &__download {
+      height: 51px;
+      width: 210px;
+      color: white;
+      background-color: var(--sky);
+      border-radius: 10px;
+      font-size: 20px;
+    }
+
+    &__btn {
+      // border: 2px orange dotted;
+      padding-left: 95px;
+    }
+  }
+
+  @media only screen and (min-width: 400px) {
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      font-size: 80px;
+      color: white;
+    }
+
+    h2 {
+      font-size: 20px;
+      color: white;
+      text-align: center;
+      width: 500px;
+    }
+
+    h3 {
+      font-size: 35px;
+      color: white;
+      margin: 40px;
+      margin-top: 20px;
+    }
+
+    &--img {
+      background-image: url(../../images/img_grey_tablet.png);
+      background-repeat: no-repeat;
+      height: 760px;
+      width: 100%;
+    }
+
+    &__explore {
+      margin-top: 40px;
+      margin-bottom: 10px;
+      height: 60px;
+      width: 245px;
+      color: white;
+      background-color: transparent;
+      border-radius: 10px;
+      font-size: 20px;
+    }
+
+    &__download {
+      height: 65px;
+      width: 260px;
+      color: white;
+      background-color: var(--sky);
+      border-radius: 10px;
+      font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 2000px) and (min-width: 767px) {
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__btn--view {
+      border: 2px red dotted;
+    }
+
+    h1 {
+      font-size: 100px;
+      color: white;
+    }
+
+    h2 {
+      font-size: 20px;
+      color: white;
+      text-align: center;
+      width: 800px;
+    }
+
+    h3 {
+      font-size: 40px;
+      color: white;
+      margin: 40px;
+      margin-top: 20px;
+    }
+
+    &--img {
+      background-image: url(../../images/img_grey_desktop.png);
+      background-repeat: no-repeat;
+      height: 760px;
+      width: 100%;
+    }
+
+    &__explore {
+      margin-top: 40px;
+      margin-bottom: 10px;
+      height: 60px;
+      width: 245px;
+      color: white;
+      background-color: transparent;
+      border-radius: 10px;
+      font-size: 20px;
+    }
+
+    &__download {
+      padding: 20px;
+      height: 65px;
+      width: 260px;
+      color: white;
+      background-color: var(--sky);
+      border-radius: 10px;
+      font-size: 20px;
+    }
+  }
+}
